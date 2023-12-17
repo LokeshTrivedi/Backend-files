@@ -1,0 +1,40 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        section {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        #profile-picture-container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        #profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        #posts-container img {
+            max-width: 100%;
+            margin-bottom: 10px;
+        }
+    

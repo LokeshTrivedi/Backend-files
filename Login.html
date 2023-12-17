@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MITS Hub</title>
+    <link rel="stylesheet" href="login_design.css">
+</head>
+<body>
+
+    
+
+        <div class="container">
+        <form action="/login" method="post" {
+            
+        }>
+
+            <img src="Signup_Page.png" alt="img">
+            
+            <!-- <h1>Login</h1> -->
+            <!-- <div style="width: 100%; height: 100%; background: black; border-radius: 20px">
+                <div style="width: 100%; height: 100%; color: white; font-size: 36px; font-family: Inter; font-weight: 600; word-wrap: break-word">MITS  Hub
+                </div>
+                <div style="width: 100%; height: 100%; background: #FF914D; border-radius: 12px"></div>
+            </div> -->
+
+            <!-- <label for="phone-email">Phone number, email or username</label> -->
+            <input type="text" id="phone-email" name="phone-email" placeholder="Phone number, email or username" required>
+            
+            <!-- <label for="password">Password</label> -->
+            <input type="password" id="password" name="password" placeholder="Password" required>
+            
+         <!-- <div class="checkbox">
+            <input type="checkbox" id="remember-me" name="remember-me">
+            <label for="remember-me">Remember me</label>
+        </div> -->
+
+            <button type="submit">Login</button>
+            
+                <a href="#">Forgot password? Get help logging in</a>
+            
+        
+            <p>Don't have an account? <a class="link" href="signup.html">Signup</a></p><br>
+            <p class="footer">&copy; 2022 MITS Hub. All rights reserved.</p>
+        </form>
+        </div>
+
+        <script>
+            // Check for the query parameter indicating signup success
+            const urlParams = new URLSearchParams(window.location.search);
+            const signupSuccess = urlParams.get('signupSuccess');
+    
+            // Display the popup if signup success flag is present
+            if (signupSuccess === 'true') {
+                alert('Signup successful!'); // You can customize this with a more sophisticated popup
+            }
+        </script>
+    
+</body>
+</html>
